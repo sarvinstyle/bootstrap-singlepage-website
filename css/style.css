@@ -1,0 +1,17 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+.bg-primary{
+    background-color:  #6244c5 !important;
+}
+.bg-warning {
+    background-color: #ffc448 !important;
+}
+.bg-dark {background-color: #12141d !important;}
+
+.btn-warning {background-color: #ffc448 !important;}
+.btn-dark {background-color: #12141d !important;}
+.btn-primary {background-color: #6244c5 !important; border: #6244c5;}
+.btn-primary:hover{background-color: #12141d !important;}
